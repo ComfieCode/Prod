@@ -15,7 +15,7 @@
             overflow-x: hidden;
         }
 
-        /* Designjoy-style Brutalist Shadows & Borders */
+        /* Productify-style Brutalist Shadows & Borders */
         .dj-shadow {
             box-shadow: 8px 8px 0px 0px #0f172a;
             transition: all 0.2s ease-in-out;
