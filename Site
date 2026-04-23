@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productize | Conversion-First Landing Pages</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap');
+
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #f8fafc;
+            color: #0f172a;
+            overflow-x: hidden;
+        }
+
+        /* Designjoy-style Brutalist Shadows & Borders */
+        .dj-shadow {
+            box-shadow: 8px 8px 0px 0px #0f172a;
+            transition: all 0.2s ease-in-out;
+        }
+        .dj-shadow:hover {
+            box-shadow: 0px 0px 0px 0px #0f172a;
+            transform: translate(8px, 8px);
+        }
+        .dj-shadow-small {
+            box-shadow: 4px 4px 0px 0px #0f172a;
+            transition: all 0.2s ease-in-out;
+        }
+        .dj-shadow-small:hover {
+            box-shadow: 0px 0px 0px 0px #0f172a;
+            transform: translate(4px, 4px);
+        }
+
+        /* Marquee Animation */
+        .marquee {
+            white-space: nowrap;
+            overflow: hidden;
+            display: flex;
+        }
+        .marquee-content {
+            display: flex;
+            animation: scroll 20s linear infinite;
+        }
+        @keyframes scroll {
+            from { transform: translateX(0); }
+            to { transform: translateX(-50%); }
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-emerald-300 selection:text-slate-900">
+
+    <nav class="max-w-7xl mx-auto px-6 py-8 flex justify-between items-center">
+        <div class="text-3xl font-extrabold tracking-tighter text-slate-900">
+            Productize<span class="text-emerald-500">.</span>
+        </div>
+        <a href="#audit" class="hidden md:inline-block bg-white text-slate-900 border-2 border-slate-900 px-6 py-3 font-bold rounded-lg dj-shadow-small">
+            Get Your Audit
+        </a>
+    </nav>
+
+    <section class="max-w-5xl mx-auto px-6 pt-20 pb-24 text-center">
+        <h1 class="text-6xl md:text-8xl font-extrabold tracking-tighter leading-[1.05] mb-8 text-slate-900">
+            Your Landing Page Looks Good. <br>
+            <span class="text-slate-400">It Just Doesn’t Convert.</span>
+        </h1>
+        <p class="text-2xl font-bold text-slate-700 mb-4 max-w-3xl mx-auto">
+            Most Landing Pages Don’t Fail on Design. They Fail on Conversion. 
+            Let Productize help you turn traffic into revenue.
+        </p>
+        <p class="text-lg text-slate-500 mb-12 max-w-2xl mx-auto font-medium">
+            Turn Your Existing Traffic Into More Customers—Without Spending More on Ads. We audit, fix, and redesign landing pages for brands that want more leads, sales, and ROI—not just better aesthetics.
+        </p>
+        <div class="flex flex-col sm:flex-row justify-center gap-6">
+            <a href="#audit" class="bg-emerald-400 text-slate-900 border-2 border-slate-900 px-8 py-5 text-lg font-extrabold rounded-xl dj-shadow">
+                Get Your Landing Page Audit
+            </a>
+            <a href="#work" class="bg-white text-slate-900 border-2 border-slate-900 px-8 py-5 text-lg font-extrabold rounded-xl dj-shadow">
+                See Before & After
+            </a>
+        </div>
+    </section>
+
+    <div class="bg-slate-900 text-emerald-400 py-6 border-y-4 border-slate-900 transform -rotate-1 scale-105">
+        <div class="marquee">
+            <div class="marquee-content space-x-12 items-center text-xl font-extrabold uppercase tracking-wide">
+                <span>Trusted by founders, marketers, and growing teams</span>
+                <span>•</span>
+                <span>100+ pages audited</span>
+                <span>•</span>
+                <span>Conversion-focused redesigns</span>
+                <span>•</span>
+                <span>Trusted by agencies & startups worldwide</span>
+                <span>•</span>
+                <span>Trusted by founders, marketers, and growing teams</span>
+                <span>•</span>
+                <span>100+ pages audited</span>
+                <span>•</span>
+                <span>Conversion-focused redesigns</span>
+                <span>•</span>
+                <span>Trusted by agencies & startups worldwide</span>
+            </div>
+        </div>
+    </div>
+
+    <section class="max-w-4xl mx-auto px-6 py-32">
+        <h2 class="text-4xl md:text-5xl font-extrabold mb-10 tracking-tight text-slate-900 leading-tight">
+            Most landing pages don’t have a design problem—they have a conversion problem.
+        </h2>
+        <p class="text-xl text-slate-600 font-medium mb-10 leading-relaxed">
+            We combine conversion strategy with high-end design to turn underperforming pages into revenue-generating assets.
+        </p>
+        <ul class="space-y-4 text-xl font-bold text-slate-800 mb-16">
+            <li class="flex items-center gap-4"><div class="w-8 h-8 bg-emerald-400 border-2 border-slate-900 rounded-full flex items-center justify-center">✓</div> Identify exactly what’s slowing your conversions</li>
+            <li class="flex items-center gap-4"><div class="w-8 h-8 bg-emerald-400 border-2 border-slate-900 rounded-full flex items-center justify-center">✓</div> Get clear, actionable fixes (not vague advice)</li>
+            <li class="flex items-center gap-4"><div class="w-8 h-8 bg-emerald-400 border-2 border-slate-900 rounded-full flex items-center justify-center">✓</div> Level up your design without sacrificing performance</li>
+        </ul>
+
+        <div class="bg-white border-4 border-slate-900 p-10 md:p-14 rounded-3xl dj-shadow">
+            <h3 class="text-3xl font-extrabold mb-6 text-slate-900">You’re getting traffic… but it’s not converting.</h3>
+            <p class="text-lg text-slate-600 mb-6 font-medium">Your page might look “clean” or even “premium”—but:</p>
+            <ul class="space-y-3 text-lg font-bold text-slate-800 mb-8">
+                <li>— Visitors don’t know what you’re offering</li>
+                <li>— Your message isn’t clear</li>
+                <li>— Your design doesn’t inspire action</li>
+                <li>— You’re losing revenue every single day</li>
+            </ul>
+            <div class="bg-slate-100 p-6 rounded-xl border-2 border-slate-900 inline-block font-extrabold text-slate-900">
+                And the worst part? You haven’t found out what’s wrong.
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-slate-900 text-white py-32 border-y-4 border-slate-900">
+        <div class="max-w-5xl mx-auto px-6">
+            <div class="text-center mb-20">
+                <h2 class="text-5xl font-extrabold mb-6 tracking-tight">That’s where Productize comes in!</h2>
+                <p class="text-2xl text-emerald-400 font-bold mb-6">We fix landing pages in two steps:</p>
+                <div class="flex flex-col md:flex-row justify-center gap-6 text-xl font-bold">
+                    <div class="bg-slate-800 p-6 rounded-2xl border border-slate-700">1. Audit — We break down your page and show you why it isn't converting.</div>
+                    <div class="bg-slate-800 p-6 rounded-2xl border border-slate-700">2. Redesign — We rebuild it with confidence conversion-first design + messaging.</div>
+                </div>
+                <div class="mt-10 inline-block bg-emerald-400 text-slate-900 px-6 py-2 rounded-full font-extrabold text-sm uppercase tracking-widest border-2 border-slate-900">
+                    Offering a money-back guarantee
+                </div>
+            </div>
+
+            <p class="text-center text-xl font-medium mb-12 text-slate-300">Don’t get stuck on guesswork. We provide clear improvements that drive results.</p>
+            
+            <div id="audit" class="grid md:grid-cols-2 gap-10">
+                <div class="bg-white text-slate-900 border-4 border-slate-900 p-10 rounded-3xl dj-shadow hover:translate-y-0 transition-transform">
+                    <h3 class="text-4xl font-extrabold mb-8">Landing Page Audit</h3>
+                    <p class="text-lg font-bold mb-6">A deep-dive analysis of your page with:</p>
+                    <ul class="space-y-4 font-medium text-lg text-slate-600 mb-8">
+                        <li class="flex gap-3"><span>—</span> Conversion breakdown (what’s working vs not)</li>
+                        <li class="flex gap-3"><span>—</span> UX & messaging issues</li>
+                        <li class="flex gap-3"><span>—</span> Clear, prioritized fixes</li>
+                        <li class="flex gap-3"><span>—</span> Where your design isn’t up to par with your competitors</li>
+                    </ul>
+                    <p class="font-extrabold bg-slate-100 p-4 rounded-xl border-2 border-slate-200">Delivered as a structured report with actionable recommendations.</p>
+                </div>
+
+                <div class="bg-emerald-400 text-slate-900 border-4 border-slate-900 p-10 rounded-3xl dj-shadow hover:translate-y-0 transition-transform">
+                    <h3 class="text-4xl font-extrabold mb-8">Productized Design</h3>
+                    <p class="text-lg font-bold mb-6">We take your page and redesign it for performance:</p>
+                    <ul class="space-y-4 font-bold text-lg text-slate-800 mb-8">
+                        <li class="flex gap-3"><span>—</span> Conversion-focused layout</li>
+                        <li class="flex gap-3"><span>—</span> Clear messaging hierarchy</li>
+                        <li class="flex gap-3"><span>—</span> Premium, modern UI</li>
+                        <li class="flex gap-3"><span>—</span> Industry leading development standards</li>
+                    </ul>
+                    <p class="font-extrabold bg-white p-4 rounded-xl border-2 border-slate-900">Fast turnaround. Fixed scope. No agency chaos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="work" class="max-w-5xl mx-auto px-6 py-32">
+        <div class="text-center mb-16">
+            <h2 class="text-5xl font-extrabold mb-6 text-slate-900 tracking-tight">See how we transform pages:</h2>
+            <p class="text-2xl font-bold text-slate-500">Before → After</p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div class="bg-white border-4 border-slate-900 p-10 rounded-3xl dj-shadow">
+                <div class="text-6xl font-black text-emerald-500 mb-4">+38%</div>
+                <div class="text-xl font-extrabold text-slate-900 uppercase tracking-widest mb-6">Conversion Rate</div>
+                <ul class="space-y-2 font-bold text-lg text-slate-600">
+                    <li>✓ Cleaner messaging</li>
+                    <li>✓ Stronger CTA flow</li>
+                </ul>
+            </div>
+
+            <div class="bg-white border-4 border-slate-900 p-10 rounded-3xl dj-shadow">
+                <h3 class="text-2xl font-extrabold mb-4 text-slate-900">Case Study: SaaS Startup</h3>
+                <p class="text-slate-600 font-medium mb-6">High traffic, low conversions. We identified weak messaging, unclear value proposition, and poor CTA structure.</p>
+                <div class="bg-slate-50 p-6 rounded-xl border-2 border-slate-200">
+                    <p class="font-bold text-slate-900 mb-2">After Productize redesigning the layout, clarifying the message, and simplified the user journey:</p>
+                    <p class="text-2xl font-extrabold text-emerald-600">+52% increase in conversions within 30 days.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-emerald-400 border-y-4 border-slate-900 py-24">
+        <div class="max-w-4xl mx-auto px-6 text-center text-slate-900">
+            <h2 class="text-4xl font-extrabold mb-12 tracking-tight">Simple, fast, and focused process:</h2>
+            <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-6 text-left mb-12">
+                <div class="bg-white border-2 border-slate-900 p-6 rounded-2xl dj-shadow-small">
+                    <div class="text-3xl font-black mb-2 opacity-30">1</div>
+                    <div class="font-bold">Submit your landing page</div>
+                </div>
+                <div class="bg-white border-2 border-slate-900 p-6 rounded-2xl dj-shadow-small">
+                    <div class="text-3xl font-black mb-2 opacity-30">2</div>
+                    <div class="font-bold">We audit and identify key issues</div>
+                </div>
+                <div class="bg-white border-2 border-slate-900 p-6 rounded-2xl dj-shadow-small">
+                    <div class="text-3xl font-black mb-2 opacity-30">3</div>
+                    <div class="font-bold">You receive clear, actionable insights</div>
+                </div>
+                <div class="bg-white border-2 border-slate-900 p-6 rounded-2xl dj-shadow-small">
+                    <div class="text-3xl font-black mb-2 opacity-30">4</div>
+                    <div class="font-bold">We redesign (optional upgrade)</div>
+                </div>
+            </div>
+            <p class="text-2xl font-black uppercase tracking-widest">No long timelines. No unnecessary calls.</p>
+        </div>
+    </section>
+
+    <section class="max-w-6xl mx-auto px-6 py-32">
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-white border-4 border-slate-900 p-8 rounded-3xl dj-shadow">
+                <p class="text-xl font-bold text-slate-800 mb-6 leading-relaxed">“This completely changed how we think about landing pages.”</p>
+                <p class="font-black text-slate-900">— Founder</p>
+            </div>
+            <div class="bg-white border-4 border-slate-900 p-8 rounded-3xl dj-shadow">
+                <p class="text-xl font-bold text-slate-800 mb-6 leading-relaxed">“We were guessing before. Now we know exactly what to fix.”</p>
+                <p class="font-black text-slate-900">— Marketing Lead</p>
+            </div>
+            <div class="bg-white border-4 border-slate-900 p-8 rounded-3xl dj-shadow">
+                <p class="text-xl font-bold text-slate-800 mb-6 leading-relaxed">“Our conversion rate jumped within weeks.”</p>
+                <p class="font-black text-slate-900">— SaaS Team</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="max-w-3xl mx-auto px-6 py-20">
+        <h2 class="text-4xl font-extrabold mb-12 text-center text-slate-900 tracking-tight">Frequently Asked Questions</h2>
+        <div class="space-y-6">
+            <div class="bg-white border-4 border-slate-900 p-6 md:p-8 rounded-2xl">
+                <h4 class="text-xl font-extrabold text-slate-900 mb-2">How long does the audit take?</h4>
+                <p class="text-lg font-medium text-slate-600">Typically 3–5 days.</p>
+            </div>
+            <div class="bg-white border-4 border-slate-900 p-6 md:p-8 rounded-2xl">
+                <h4 class="text-xl font-extrabold text-slate-900 mb-2">Do I need a redesign?</h4>
+                <p class="text-lg font-medium text-slate-600">Not always—we’ll tell you honestly.</p>
+            </div>
+            <div class="bg-white border-4 border-slate-900 p-6 md:p-8 rounded-2xl">
+                <h4 class="text-xl font-extrabold text-slate-900 mb-2">What tools do you design?</h4>
+                <p class="text-lg font-medium text-slate-600">Figma, Webflow, and scalable systems.</p>
+            </div>
+            <div class="bg-white border-4 border-slate-900 p-6 md:p-8 rounded-2xl">
+                <h4 class="text-xl font-extrabold text-slate-900 mb-2">Is this for startups or established brands?</h4>
+                <p class="text-lg font-medium text-slate-600">Both—if you care about conversions.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-slate-900 py-32 text-center border-t-4 border-slate-900">
+        <div class="max-w-4xl mx-auto px-6">
+            <h2 class="text-5xl md:text-6xl font-extrabold mb-8 text-white tracking-tight leading-tight">
+                Your landing page is either making you money—or losing it. <span class="text-emerald-400">Let’s fix it.</span>
+            </h2>
+            <p class="text-2xl text-slate-300 font-bold mb-4">Take the guesswork out of landing pages work with Productize today.</p>
+            <p class="text-xl text-slate-400 font-medium mb-12">Stop guessing what’s wrong with your landing page. Start fixing it—with clarity.</p>
+            
+            <a href="#audit" class="inline-block bg-emerald-400 text-slate-900 border-4 border-slate-900 px-10 py-6 text-2xl font-extrabold rounded-2xl dj-shadow hover:bg-emerald-300">
+                Request Your Audit
+            </a>
+        </div>
+    </section>
+
+</body>
+</html>
